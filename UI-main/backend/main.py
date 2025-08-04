@@ -1693,7 +1693,7 @@ async def push_to_jira_confluence_slack(request: PushToJiraConfluenceSlackReques
         JIRA_BASE_URL = os.getenv("JIRA_BASE_URL")
         JIRA_EMAIL = os.getenv("JIRA_EMAIL")
         JIRA_API_TOKEN = os.getenv("JIRA_API_TOKEN")
-        JIRA_PROJECT_KEY = "MFS"  
+        JIRA_PROJECT_KEY = "ECS"  
         
         SLACK_TOKEN = os.getenv("SLACK_TOKEN")
         SLACK_CHANNEL = "#new-channel"  
